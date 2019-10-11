@@ -1,0 +1,124 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	/*font-size: 1rem;*/
+	font-family: 'Long Cang', cursive;
+
+}
+
+
+.character{
+	position: absolute;
+	/*width: 15vw;*/
+}
+
+
+#ai{
+	top: 93%;
+	/*margin-left: 1.5em;*/
+}
+
+#player{
+	top: 80%;
+	margin-left: 1em;
+	cursor: pointer;
+
+}
+
+#player img{
+	height: 10vh;
+	width: 10vw;
+}
+
+
+.powerUps{
+	position: absolute;
+	width: 15vw;
+}
+
+
+#startRace{
+	height: 8vh;
+	width: 10vw;
+	margin-top: 1.5em;
+	font-size: 1.5rem;
+	background-color: #F6E8EA;
+	border: 2px solid #22181C;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#startRace:hover{
+	background-color: #22181C;
+	border: 2px solid #F6E8EA;
+	color: white;
+}
+
+header h1{
+	/*text-align: center*/
+	font-size: 3rem;
+	margin-top: 1em;
+	letter-spacing: .5em;
+	color: white;
+
+}
+
+header{
+	text-align: center;
+}
+
+#ai img{
+	height: 10vh;
+	width: 10vw;
+}
+
+#ai2 img{
+	height: 10vh;
+	width: 10vw;
+}
+
+
+
+.buttonrows{
+	/*display: flex;
+	justify-content: space-around;
+	align-items: center;
+	*/
+	margin-top: 1em;
+	display: none;
+}
+
+.buttonrows button{
+	width: 10vw;
+	height: 8vh;
+	background-color: #F6E8EA;
+	border: 2px solid #22181C;
+	transition: 0.5s;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-size: 2.5rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.buttonrows button:hover{
+	background-color: #22181C;
+	border: 2px solid #F6E8EA;
+	color: white;
+}
+
+
+body{
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	height: 100vh;
+}
+
+.buttonHide{
+	display: block;
+}
